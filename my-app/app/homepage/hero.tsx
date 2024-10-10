@@ -15,15 +15,11 @@ export default function Hero() {
   return (
     <div className="bg-white">
       <header className="fixed top-0 left-1/2 transform -translate-x-1/2 mt-6 z-50 w-full max-w-4xl bg-white/70 backdrop-blur rounded-[32px] outline outline-black outline-2 lg:w-[600px] lg:max-w-4xl">
-        <nav aria-label="Global" className="flex justify-between items-center p-4 lg:px-8">
+        <nav aria-label="Global" className="flex justify-between items-center p-2 sm:p-4 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1">
               <span className="sr-only">Your Company</span>
-              <img
-                alt="brandflow logo"
-                src="/brandflow_black.svg"
-                className="h-14 w-auto"
-              />
+              <img alt="brandflow logo" src="/brandflow_black.svg" className="h-14 w-auto" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -44,17 +40,13 @@ export default function Hero() {
             ))}
           </div>
         </nav>
-        <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
+        <Dialog open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} className="lg:hidden">
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 py-1.5 pl-28">
+              <a href="/" className="-m-1.5 py-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  alt=""
-                  src=""
-                  className="h-8 w-auto"
-                />
+                <img alt="brandflow logo" src="/brandflow_black.svg" className="h-8 w-auto" />
               </a>
               <button
                 type="button"
@@ -70,12 +62,13 @@ export default function Hero() {
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
-                      key={item.name}
-                      href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    >
-                      {item.name}
-                    </a>
+                    key={item.name}
+                    href={item.href}
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    onClick={() => setMobileMenuOpen(false)} // Close the dialog
+                  >
+                    {item.name}
+                  </a>
                   ))}
                 </div>
               </div>
@@ -83,7 +76,6 @@ export default function Hero() {
           </DialogPanel>
         </Dialog>
       </header>
-
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-2xl py-28 sm:py-36 lg:py-40">
