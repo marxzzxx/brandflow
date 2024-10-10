@@ -14,10 +14,10 @@ export default function Hero() {
 
   return (
     <div className="bg-white">
-      <header className="fixed top-0 left-1/2 transform -translate-x-1/2 mt-6 z-50 w-full max-w-4xl bg-white/70 backdrop-blur rounded-[32px] outline outline-black outline-2 lg:w-[600px] lg:max-w-4xl">
+      <header className="fixed top-0 left-1/2 transform -translate-x-1/2 mt-6 z-50 sm:w-full w-[400px] max-w-4xl bg-white/70 backdrop-blur rounded-[32px] outline outline-black outline-2 lg:w-[600px] lg:max-w-4xl">
         <nav aria-label="Global" className="flex justify-between items-center p-2 sm:p-4 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1">
+            <a href="/" className="-m-1.5 p-1 ">
               <span className="sr-only">Your Company</span>
               <img alt="brandflow logo" src="/brandflow_black.svg" className="h-14 w-auto" />
             </a>
@@ -26,7 +26,7 @@ export default function Hero() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 -ml-12 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             >
               <span className="sr-only">Open main menu</span>
               <Bars3Icon aria-hidden="true" className="h-6 w-6" />
