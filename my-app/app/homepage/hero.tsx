@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Web Development', href: '#webdev-section' },
 ]
 
-export default function hero() {
+export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

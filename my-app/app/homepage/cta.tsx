@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function CTA() {
     return (
       <div id='cta-section' className="bg-white">
@@ -35,7 +36,7 @@ export default function CTA() {
               </div>
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
-              <img
+              <Image
                 alt="brandflow logo"
                 src="/webdev_cta.svg"
                 width={1824}

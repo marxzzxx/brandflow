@@ -52,7 +52,7 @@ export default function branding() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                We believe that personal branding is more than just a trend; it's an essential strategy for standing out in today's competitive market. We empower our clients to define their unique narratives, aligning their values and aspirations with their online presence. Our tailored approach ensures that your personal brand resonates with your target audience, fostering deeper connections and increasing your influence.
+                We believe that personal branding is more than just a trend; it&apos;s an essential strategy for standing out in today&apos;s competitive market. We empower our clients to define their unique narratives, aligning their values and aspirations with their online presence. Our tailored approach ensures that your personal brand resonates with your target audience, fostering deeper connections and increasing your influence.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -79,7 +79,7 @@ export default function branding() {
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No experience? No problem.</h2>
               <p className="mt-6">
-              Embarking on a personal branding journey can feel daunting, but you don’t need prior experience to make a significant impact. At Brandflow, we cater to all skill levels, providing guidance and resources to help you grow and succeed. Our user-friendly approach ensures that you’ll feel confident and empowered as you build your brand from the ground up. Let's transform your ideas into reality!
+              Embarking on a personal branding journey can feel daunting, but you don&apos;t need prior experience to make a significant impact. At Brandflow, we cater to all skill levels, providing guidance and resources to help you grow and succeed. Our user-friendly approach ensures that you&apos;ll feel confident and empowered as you build your brand from the ground up. Let's transform your ideas into reality!
               </p>
             </div>
           </div>
