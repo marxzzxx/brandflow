@@ -75,11 +75,11 @@ export default function branding() {
                 </li>
               </ul>
               <p className="mt-8">
-                Our expertise in content creation complements your personal branding journey. From engaging social media posts to compelling blogs and videos, we craft content that not only reflects your brand's identity but also engages your audience effectively. Let us help you tell your story and cultivate a powerful online presence that attracts opportunities and drives success.
+                Our expertise in content creation complements your personal branding journey. From engaging social media posts to compelling blogs and videos, we craft content that not only reflects your brand&apos;s identity but also engages your audience effectively. Let us help you tell your story and cultivate a powerful online presence that attracts opportunities and drives success.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No experience? No problem.</h2>
               <p className="mt-6">
-              Embarking on a personal branding journey can feel daunting, but you don&apos;t need prior experience to make a significant impact. At Brandflow, we cater to all skill levels, providing guidance and resources to help you grow and succeed. Our user-friendly approach ensures that you&apos;ll feel confident and empowered as you build your brand from the ground up. Let's transform your ideas into reality!
+              Embarking on a personal branding journey can feel daunting, but you don&apos;t need prior experience to make a significant impact. At Brandflow, we cater to all skill levels, providing guidance and resources to help you grow and succeed. Our user-friendly approach ensures that you&apos;ll feel confident and empowered as you build your brand from the ground up. Let&apos;s transform your ideas into reality!
               </p>
             </div>
           </div>
