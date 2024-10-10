@@ -21,7 +21,7 @@ const StatsSection: React.FC = () => {
   }, []);
 
   return (
-    <section id="stats-section" className="px-4 py-8 md:px-8 lg:px-16 bg-white">
+    <section id="about-section" className="px-4 py-8 md:px-8 lg:px-16 bg-white">
       {/* Header Section */}
       <div className="text-left max-w-2xl mx-left mb-20 px-20">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
