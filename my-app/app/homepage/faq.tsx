@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 
 export default function FAQ() {
-  // Specify the type for openFAQs
   const [openFAQs, setOpenFAQs] = useState<Record<number, boolean>>({});
 
   const faqs = [
