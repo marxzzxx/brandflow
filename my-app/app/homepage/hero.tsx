@@ -93,7 +93,7 @@ export default function Hero() {
             </p>
             <div className="mt-12 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="mailto:brandflow.contactus@gmail.com"
                 className= 'transition-transform duration-500 ease-in-out transform hover:scale-105 hover:-translate-y-2 rounded-md bg-black px-20 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
               >
                 Get started
