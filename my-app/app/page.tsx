@@ -1,3 +1,4 @@
+'use Client'
 import React, { useEffect } from 'react';
 import Head from 'next/head';
 import HeroSection from '@/app/homepage/hero';
