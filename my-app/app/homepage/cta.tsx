@@ -1,6 +1,4 @@
 'use client';
-import { useState } from "react";
-
 export default function CTA() {
     return (
       <div id='cta-section' className="bg-white pt-24 max-[500px]:pt-12">
