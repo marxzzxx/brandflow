@@ -2,9 +2,8 @@ import React from "react";
 import HeroSection from '@/app/homepage/hero';
 import StatsSection from './homepage/stats';
 import Branding from './homepage/branding';
-import WebDev from './homepage/webdev';
+import Process from "./homepage/process";
 import CTA from './homepage/cta';
-import FAQ from './homepage/faq';
 import Footer from "./homepage/footer";
 
 export default function Home() {
@@ -13,9 +12,8 @@ export default function Home() {
     <HeroSection/>
     <StatsSection/>
     <Branding />
-    <WebDev />
+    <Process />
     <CTA />
-    <FAQ />
     <Footer />
     </>
   );

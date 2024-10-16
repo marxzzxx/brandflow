@@ -11,30 +11,39 @@ export default function Footer() {
             </li>
           </ul>
   
-          <ul className="flex justify-center space-x-6 mb-6">
+          <ul className="flex justify-center space-x-10 mb-6">
             <li>
-              <a href="#" className="text-gray-500 hover:text-gray-900">
-                <i className="fab fa-facebook"></i>
+              <a href="https://www.linkedin.com/company/brandflow-dev/" className="text-gray-500 hover:text-gray-900">
+                <i className="LinkedIn">
+                  <img 
+                    src="/linkedin.png"
+                    className="h-[25px] w-auto"
+                  
+                  />
+                </i>
+              </a>
+              
+            </li>
+            <li>
+              <a href="https://www.instagram.com/brandflowsocial/" className="text-gray-500 hover:text-gray-900">
+                <i className="Instagram">
+                <img 
+                    src="/instagram.png"
+                    className="h-[25px] w-auto"
+                  
+                  />
+                </i>
               </a>
             </li>
             <li>
               <a href="#" className="text-gray-500 hover:text-gray-900">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-500 hover:text-gray-900">
-                <i className="fab fa-xing"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-500 hover:text-gray-900">
-                <i className="fab fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-500 hover:text-gray-900">
-                <i className="fab fa-youtube"></i>
+                <i className="Facebook">
+                <img 
+                    src="/facebook.png"
+                    className="h-[25px] w-auto"
+                  
+                  />
+                </i>
               </a>
             </li>
           </ul>
