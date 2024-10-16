@@ -2,7 +2,6 @@
 import { useState } from "react";
 
 export default function CTA() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
       <div id='cta-section' className="bg-white pt-24 max-[500px]:pt-12">
         <div className="mx-auto grid max-[500px]:max-w-[380px] max-w-[1220px] grid-cols-1 lg:grid-cols-12 gap-10 p-6 lg:p-12 border-2 border-grey rounded-3xl py-12 bg-[#1E3A8A]">
