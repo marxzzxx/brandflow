@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Nav from "./nav";
+import Footer from "./homepage/footer";
+
+interface LayoutProps {
+  children: ReactNode;
+}
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,11 +17,7 @@ export const metadata: Metadata = {
   description: "Helping established entrepreneurs to grow their businesses online!",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, }: LayoutProps) {
   return (
     <html lang="en">
       <head>
@@ -34,7 +37,9 @@ export default function RootLayout({
         {/* End Google Analytics */}
       </head>
       <body className={inter.className}>
+        <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

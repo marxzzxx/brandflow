@@ -22,7 +22,7 @@ const StatsSection: React.FC = () => {
 
   return (
     <div id="about-section" className="bg-white">
-      <section className="py-8 pt-14 md:px-8 bg-white mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+      <section className="py-14 md:px-8 bg-white mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         {/* Header Section */}
         <div className="text-left max-w-2xl mb-20">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">

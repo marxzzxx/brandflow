@@ -4,7 +4,6 @@ import StatsSection from './homepage/stats';
 import Branding from './homepage/branding';
 import Process from "./homepage/process";
 import CTA from './homepage/cta';
-import Footer from "./homepage/footer";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
     <Branding />
     <Process />
     <CTA />
-    <Footer />
     </>
   );
 }

@@ -2,9 +2,9 @@ import { TrophyIcon, VideoCameraIcon, ChatBubbleLeftRightIcon } from '@heroicons
 
 export default function branding() {
   return (
-    <div id='tempt-about-section' className="relative isolate overflow-hidden bg-white px-6 pb-24 sm:pb-24 lg:overflow-visible lg:px-0">
-      <div className="relative isolate px-6 pt-14 lg:px-8">
-                <div className="mx-auto max-w-2xl py-28 sm:py-36 lg:py-20">
+    <div className="relative isolate overflow-hidden bg-white px-6 py-14 sm:py-14 lg:overflow-visible lg:px-0">
+      <div className="relative isolate px-6 pb-16 lg:px-8">
+                <div className="mx-auto max-w-2xl pb-28 sm:pb-36 lg:pb-20">
                     <div className="mb-8 sm:mb-8 sm:flex sm:justify-center flex justify-center items-center grid grid-cols-2 gap-2 max-[390px]:w-[200px]">
                         <div className="relative rounded rounded-[14px] px-2 font-semibold bg-[#1E3A8A] text-lg leading-6 text-black">
                             <img 
@@ -26,7 +26,7 @@ export default function branding() {
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
-                                href="#"
+                                href="mailto:brandflow.contactus@gmail.com"
                                 className="transition-transform duration-300 hover:scale-105 hover:-translate-y-2 border border-gray-600 rounded-[16px] bg-[#1E3A8A] px-10 py-4 text-sm font-semibold text-white shadow-sm hover:bg-[#1E3A8A]/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A8A]"
                             >
                                 Get started
@@ -64,7 +64,7 @@ export default function branding() {
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            alt=""
+            alt="An personal branding image of social media growth and demand generation"
             src="/branding_image.webp"
             className="w-[700px] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[850px]"
           />

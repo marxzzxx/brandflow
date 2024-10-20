@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       animation: {
-        'spin-slow': 'spin 10s linear infinite',
+        'spin-slow': 'spin 15s linear infinite',
       }
     },
   },

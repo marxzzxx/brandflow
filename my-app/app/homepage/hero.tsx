@@ -1,82 +1,7 @@
-'use client'
-import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
-const navigation = [
-  { name: 'Services', href: '#tempt-service-section' },
-  { name: 'About', href: '#tempt-about-section' },
-
-]
-
 export default function Hero() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <div className="bg-white">
-      <header className="fixed top-0 left-1/2 transform -translate-x-1/2 mt-6 z-50 max-w-4xl bg-white/70 backdrop-blur rounded-[32px] outline outline-black outline-2 lg:max-w-4xl lg:w-[800px]  max-lg:w-[680px] max-[700px]:w-[600px] max-[640px]:w-[580px] max-[600px]:w-[500px] max-[510px]:w-[450px] max-[460px]:w-[380px] max-[380px]:w-[300px]">
-        <nav aria-label="Global" className="flex justify-between items-center p-2 sm:p-4 lg:px-8">
-          <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1 ">
-              <span className="sr-only">Your Company</span>
-              <img alt="brandflow logo" src="/brandflow_black.svg" className="h-14 w-auto" />
-            </a>
-          </div>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 -ml-12 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" className="h-6 w-6" />
-            </button>
-          </div>
-          <div className="hidden lg:flex lg:gap-x-8">
-            {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
-                {item.name}
-              </a>
-            ))}
-          </div>
-        </nav>
-        <Dialog open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} className="lg:hidden">
-          <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between">
-              <a href="/" className="-m-1.5 py-1.5">
-                <span className="sr-only">Your Company</span>
-                <img alt="brandflow logo" src="/brandflow_black.svg" className="h-8 w-auto" />
-              </a>
-              <button
-                type="button"
-                onClick={() => setMobileMenuOpen(false)}
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
-              >
-                <span className="sr-only">Close menu</span>
-                <XMarkIcon aria-hidden="true" className="h-6 w-6" />
-              </button>
-            </div>
-            <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
-                    <a
-                    key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    onClick={() => setMobileMenuOpen(false)} 
-                  >
-                    {item.name}
-                  </a>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </DialogPanel>
-        </Dialog>
-      </header>
-                  
+
       {/* Background */}
 
       <div className="relative isolate overflow-hidden bg-white">
@@ -112,7 +37,7 @@ export default function Hero() {
 
         {/* Hero Content */}
 
-        <div className="mx-auto max-w-7xl px-6 pb-14 pt-10 sm:pb-32 lg:flex lg:px-8 lg:pt-24 lg:pb-2">
+        <div className="mx-auto max-w-7xl px-6 py-10 sm:pb-36 lg:flex lg:px-8 lg:pt-24 lg:pb-16">
           <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl">
             {/* <div className="mt-24 sm:mt-32 lg:mt-32">
               <a className="inline-flex space-x-6">
@@ -125,7 +50,7 @@ export default function Hero() {
               Building <span className="text-[#2563EB] animate-pulse">Brands</span> in the Digital Landscape
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-500">
-              From impactful personal branding to strategic content creation, we equip entrepreneurs with the tools and expertise to elevate their online presence and captivate their audience.
+              From impactful personal branding to strategic content creation, we help founders and executives build their personal brands and create demand through content.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
@@ -147,7 +72,7 @@ export default function Hero() {
               <img
                 alt="A image of Brandflow logo rotating"
                 src="/hero_logo.svg"
-                className="w-[48rem] rounded-[20px] bg-white/50 ring-1 ring-white/10 opacity-25"
+                className="w-[36rem] mt-8 rounded-[20px] bg-white/50 ring-1 ring-white/10 opacity-25 animate-[spin_15s_linear_infinite]"
               />
             </div>
           </div>

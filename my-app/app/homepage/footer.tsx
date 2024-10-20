@@ -15,7 +15,8 @@ export default function Footer() {
             <li>
               <a href="https://www.linkedin.com/company/brandflow-dev/" className="text-gray-500 hover:text-gray-900">
                 <i className="LinkedIn">
-                  <img 
+                  <img
+                    alt="LinkedIn"
                     src="/linkedin.png"
                     className="h-[25px] w-auto"
                   
@@ -27,7 +28,8 @@ export default function Footer() {
             <li>
               <a href="https://www.instagram.com/brandflowsocial/" className="text-gray-500 hover:text-gray-900">
                 <i className="Instagram">
-                <img 
+                <img
+                    alt="Instagram"
                     src="/instagram.png"
                     className="h-[25px] w-auto"
                   
@@ -35,7 +37,7 @@ export default function Footer() {
                 </i>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="text-gray-500 hover:text-gray-900">
                 <i className="Facebook">
                 <img 
@@ -45,7 +47,7 @@ export default function Footer() {
                   />
                 </i>
               </a>
-            </li>
+            </li> */}
           </ul>
   
           <p className="text-gray-500 text-sm">
