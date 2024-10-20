@@ -2,7 +2,7 @@ import { TrophyIcon, VideoCameraIcon, ChatBubbleLeftRightIcon } from '@heroicons
 
 export default function branding() {
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-14 sm:py-14 lg:overflow-visible lg:px-0">
+    <div id="about" className="relative isolate overflow-hidden bg-white px-6 py-14 sm:py-14 lg:overflow-visible lg:px-0">
       <div className="relative isolate px-6 pb-16 lg:px-8">
                 <div className="mx-auto max-w-2xl pb-28 sm:pb-36 lg:pb-20">
                     <div className="mb-8 sm:mb-8 sm:flex sm:justify-center flex justify-center items-center grid grid-cols-2 gap-2 max-[390px]:w-[200px]">

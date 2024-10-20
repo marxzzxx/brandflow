@@ -31,7 +31,7 @@ const posts = [
   
   export default function Process() {
     return (
-      <div className="bg-white pt-24 sm:pt-24">
+      <div id="service"className="bg-white pt-24 sm:pt-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="relative isolate px-6 pt-0 lg:px-8">
                 <div className="mx-auto max-w-2xl pb-4 sm:pb-2 lg:pb-4">
