@@ -50,7 +50,7 @@ export default function Hero() {
               Building <span className="text-[#2563EB] animate-pulse">Brands</span> in the Digital Landscape
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-500">
-              From impactful personal branding to strategic content creation, we help founders and executives build their personal brands and create demand through content.
+              From impactful personal branding to strategic content creation, we help founders / executives / creators build their personal brands and create demand through content.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a

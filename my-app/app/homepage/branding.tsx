@@ -10,7 +10,7 @@ export default function branding() {
                             <img 
                                 alt="brandflow logo" 
                                 src="/logo_what_we_do_white.svg" 
-                                className="flex h-[56px] w-auto justify-center item-center max-[500px]:w-[150px]"
+                                className="flex h-[56px] w-auto justify-center item-center max-[500px]:w-[150px] animate-[spin_15s_linear_infinite]"
                             />
                         </div>
                         <div className="relative flex justify-center item-center rounded rounded-[14px] px-6 py-4 font-semibold bg-gray-200 text-lg leading-6 text-gray-900 max-[500px]:w-[150px] max-[500px]:text-[15px]">
