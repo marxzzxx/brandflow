@@ -22,7 +22,7 @@ export default function branding() {
                             We Are Your B2B Brand Builders
                         </h1>
                         <p className="mt-6 text-xl leading-8 text-gray-600">
-                            Reach your audience with our content strategists <br/> and branding specialists
+                            Reach your audience with our content strategists.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a

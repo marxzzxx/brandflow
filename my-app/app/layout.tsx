@@ -12,8 +12,8 @@ interface LayoutProps {
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Brandflow",
-  keywords: "Brandflow, personal branding, web development, entrepreneurs, branding",
+  title: "brandflow",
+  keywords: "brandflow, personal branding, web development, entrepreneurs, branding",
   description: "Helping established entrepreneurs to grow their businesses online!",
 };
 
