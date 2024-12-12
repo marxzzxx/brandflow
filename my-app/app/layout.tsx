@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "brandflow",
   keywords: "brandflow, personal branding, web development, entrepreneurs, branding",
-  description: "Helping established entrepreneurs to grow their businesses online!",
+  description: "Helping established entrepreneurs, founders and executives to grow their personal brand!",
 };
 
 export default function RootLayout({ children, }: LayoutProps) {
