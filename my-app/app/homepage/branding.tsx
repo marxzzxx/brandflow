@@ -1,4 +1,3 @@
-import { TrophyIcon, VideoCameraIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/20/solid'
 import { Cog, Blocks, Globe } from 'lucide-react'
 
 export default function branding() {
@@ -96,7 +95,7 @@ export default function branding() {
                   </span>
                 </li>
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What's Next?</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What&apos;s Next?</h2>
               <p className="mt-6 ">
                 Personal branding is what makes you stand out from the crowd, brandflow does just that.
           

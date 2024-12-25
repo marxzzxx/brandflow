@@ -1,6 +1,5 @@
 'use client';
 import React from "react";
-import { TrophyIcon, VideoCameraIcon, ChatBubbleLeftRightIcon } from "@heroicons/react/20/solid";
 import CalendlyWidget from "./calendly";
 
 export default function Branding() {
@@ -54,12 +53,12 @@ export default function Branding() {
                 <li className="mb-2">Decide if & how we can help you + provide as much value as possible regardlessly.</li>
               </div>
               <div className="mb-8">
-                <p className="text-gray-500 mb-2 text-lg">Can't find a preferred time slot?</p>
+                <p className="text-gray-500 mb-2 text-lg">Can&apos;t find a preferred time slot?</p>
                 <a
                   href="brandflow.contactus@gmail.com"
                   className="text-[#1E3A8A] text-lg underline hover:text-[#1E3A8A]/50"
                 >
-                  Drop us an email and we'll get in touch!
+                  Drop us an email and we&apos;ll get in touch!
                 </a>
               </div>
             </div>
