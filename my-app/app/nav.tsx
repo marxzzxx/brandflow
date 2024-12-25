@@ -4,8 +4,9 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Service', href: '#service' },
-  { name: 'About', href: '#about' },
+//   { name: 'Service', href: '#service' },
+//   { name: 'About', href: '#about' },
+  { name: 'Work with us', href:'/book-a-demo'}
 
 ]
 
@@ -13,7 +14,7 @@ export default function Nav(){
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     return(
         <div className="bg-white">
-            <header className="fixed top-0 left-1/2 transform -translate-x-1/2 mt-6 z-50 max-w-4xl bg-white/70 backdrop-blur rounded-[32px] outline outline-black outline-2 lg:max-w-4xl lg:w-[800px]  max-lg:w-[680px] max-[700px]:w-[600px] max-[640px]:w-[580px] max-[600px]:w-[500px] max-[510px]:w-[450px] max-[460px]:w-[380px] max-[380px]:w-[300px]">
+            <header className="fixed top-0 left-1/2 transform -translate-x-1/2 mt-6 z-50 max-w-4xl bg-white/70 backdrop-blur rounded-[32px] outline outline-black outline-2 lg:w-[1000px] max-lg:w-[680px] max-[700px]:w-[600px] max-[640px]:w-[580px] max-[600px]:w-[500px] max-[510px]:w-[450px] max-[460px]:w-[380px] max-[380px]:w-[300px]">
             <nav aria-label="Global" className="flex justify-between items-center p-2 sm:p-4 lg:px-8">
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1 flex flex-row">

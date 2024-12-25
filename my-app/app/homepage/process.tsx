@@ -31,12 +31,12 @@ const posts = [
   
   export default function Process() {
     return (
-      <div id="service"className="bg-white pt-24 sm:pt-24">
+      <div id="service"className="bg-[#fffcfa] pt-24 sm:pt-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="relative isolate px-6 pt-0 lg:px-8">
                 <div className="mx-auto max-w-2xl pb-4 sm:pb-2 lg:pb-4">
                     <div className="mb-8 sm:mb-8 sm:flex sm:justify-center flex justify-center items-center grid grid-cols-2 gap-2 max-[390px]:w-[200px]">
-                        <div className="relative rounded rounded-[14px] px-2 font-semibold bg-[#1E3A8A] text-lg leading-6 text-black">
+                        <div className="relative rounded rounded-[14px] px-2 font-semibold bg-[#1E3A8A] text-lg leading-6 text-[#1E1E1E]">
                             <img 
                                 alt="brandflow logo" 
                                 src="/logo_what_we_do_white.svg" 

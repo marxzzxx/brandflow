@@ -4,7 +4,7 @@ export default function Hero() {
 
       {/* Background */}
 
-      <div className="relative isolate overflow-hidden bg-white">
+      <div className="relative isolate overflow-hidden bg-[#fffcfa]">
         <svg
           aria-hidden="true"
           className="absolute inset-0 -z-10 h-full w-full stroke-black/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -46,15 +46,15 @@ export default function Hero() {
                 </span>
               </a>
             </div> */}
-            <h1 className="mt-28 text-5xl font-bold tracking-tight text-black sm:text-5xl lg:text-[56px]">
-              Building <span className="text-[#2563EB] animate-pulse">Brands</span> in the Digital Landscape
+            <h1 className="mt-28 text-5xl font-semibold tracking-tight text-[#181818] sm:text-5xl lg:text-[60px]">
+              Your Untold Stories, <span className="text-[#1E3A8A] animate-pulse">Reimagined</span>.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-500">
-              From impactful personal branding to strategic content creation, we help founders / executives / creators build their personal brands and create demand through content.
+              From impactful personal branding to strategic content creation,<br/> we help founders & executives build their personal brands and create demand through content.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
-                href="#join"
+                href="/book-a-demo"
                 className="transition-transform duration-300 hover:scale-105 hover:-translate-y-2 border border-gray-600 rounded-[16px] bg-[#1E3A8A] px-10 py-4 text-sm font-semibold text-white shadow-sm hover:bg-[#1E3A8A]/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A8A]"
               >
                 Work with us
