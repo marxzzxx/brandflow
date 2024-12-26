@@ -19,10 +19,10 @@ export default function branding() {
                     </div>
                     <div className="text-center">
                         <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                            We Are Your B2B Content Architects
+                            We Are Your B2B Content Studio
                         </h1>
                         <p className="mt-6 text-xl leading-8 text-gray-600">
-                            Reach your audience with our content strategists.
+                            Work with our bespoke team of strategists & creatives.
                         </p>
                         {/* <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
